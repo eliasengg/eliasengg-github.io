@@ -7,12 +7,31 @@
   <title>Elias Engineering Works - Home</title>
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .header-logo {
+      width: 100px;
+      height: auto;
+    }
+    .highlight {
+      color: #28a745;
+      font-weight: bold;
+    }
+    .expertise {
+      background-color: #f8f9fa;
+      padding: 30px;
+      border-radius: 10px;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
 
   <!-- Navigation Bar -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">Elias Engineering Works</a>
+    <a class="navbar-brand" href="#">
+      <img src="logo_resized.png" alt="Elias Engineering Logo" class="header-logo">
+      Elias Engineering Works
+    </a>
     <div class="collapse navbar-collapse">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
@@ -27,10 +46,34 @@
   <div class="jumbotron text-center">
     <h1>Welcome to Elias Engineering Works</h1>
     <p>Your trusted partner in precision engineering solutions since 1976.</p>
+    <p class="highlight">Expertise in Pressure Die Casting, Sand Casting, and Gravity Casting.</p>
+  </div>
+
+  <!-- Expertise Section -->
+  <div class="container expertise">
+    <h2 class="text-center">Why Choose Elias Engineering Works?</h2>
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <h4 class="highlight">Pressure Die Casting</h4>
+        <p>Our pressure die casting services ensure high precision, strength, and efficiency. We create components that meet the highest standards, perfect for demanding industrial applications.</p>
+      </div>
+      <div class="col-md-4">
+        <h4 class="highlight">Sand Casting</h4>
+        <p>We provide premium sand casting services that guarantee durability and customization. This makes us an ideal choice for customers looking for reliable, tailored engineering solutions.</p>
+      </div>
+      <div class="col-md-4">
+        <h4 class="highlight">Gravity Casting</h4>
+        <p>Our gravity casting expertise provides high-quality parts with smooth finishes. This process is ideal for industries requiring consistent and flawless components.</p>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <p class="highlight">"Reliable, Quality-Assured Engineering Solutions Tailored to Your Needs!"</p>
+      <p>Contact us today to find out how we can help with your next big project.</p>
+    </div>
   </div>
 
   <!-- Image Carousel -->
-  <div id="engineeringCarousel" class="carousel slide container" data-ride="carousel">
+  <div id="engineeringCarousel" class="carousel slide container mt-5" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
         <img src="IMG_20231122_140337.jpg" class="d-block w-100" alt="Engineering Image 1">
@@ -55,8 +98,9 @@
     </a>
   </div>
 
-  <!-- Footer -->
-  <footer class="text-center mt-4">
+  <!-- Contact Information in Footer -->
+  <footer class="text-center mt-5 p-4 bg-light">
+    <p>Contact us at <a href="mailto:info@eliasengineering.works">info@eliasengineering.works</a> or call +91 9850046870</p>
     <p>&copy; 2023 Elias Engineering Works. All rights reserved.</p>
   </footer>
 
